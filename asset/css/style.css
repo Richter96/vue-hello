@@ -5,7 +5,9 @@
 }
 
 
-.img {
-    width: 300px;
+.Pic {
+    max-width: 100%;
     display: inline;
+    padding-left: 1rem;
+    
 }

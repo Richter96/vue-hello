@@ -12,7 +12,7 @@ createApp({
             image: 'https://unsplash.it/300/300?image=',
             objectImg: {
                 src: 'https://unsplash.it/300/300?image=',
-                class: 'img'
+                class: 'Pic'
             }
 
 
