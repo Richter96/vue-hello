@@ -11,7 +11,17 @@
     <div id="app">
         <div class="container">
             <h1>{{titolo}}</h1>
+            <div class="img">
+                <!-- inserimento immagine tramite link immagine -->
+                <img v-bind:src="image" alt="">
+                <!-- inserimento immagine tramite un oggetto con link immagine e class -->
+                <img v-bind='objectImg' alt="">
+            </div>
         </div>
+
+
+
+
     </div>
 
 

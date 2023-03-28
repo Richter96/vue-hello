@@ -4,11 +4,18 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 Buon divertimento e confermate lettura come al solito! :baby-yoda::vue: */
 
 const { createApp } = Vue
-    
+
 createApp({
-  data() {
-    return {
-      titolo: ''
+    data() {
+        return {
+            titolo: 'TiToLo',
+            image: 'https://unsplash.it/300/300?image=',
+            objectImg: {
+                src: 'https://unsplash.it/300/300?image=',
+                class: 'img'
+            }
+
+
+        }
     }
-  }
 }).mount('#app')
